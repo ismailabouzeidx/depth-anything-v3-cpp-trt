@@ -143,11 +143,11 @@ To compare outputs yourself:
 
 ```bash
 # 1. Generate Python outputs
-cd /home/ismo/projects/Depth-Anything-3/src
+cd ~/Depth-Anything-3/src
 python3 save_outputs_for_comparison.py
 
 # 2. Run C++ inference
-cd /home/ismo/projects/depth_anything_v3_cpp_trt
+cd ~/depth_anything_v3_cpp_trt
 ./build/depth_anything_3_cpp_trt model.engine img1.jpg img2.jpg
 
 # 3. Compare outputs
