@@ -159,6 +159,50 @@ python3 scripts/compare_depths.py \
 
 See `COMPARISON_GUIDE.md` and `scripts/README_COMPARISON.md` for detailed comparison instructions.
 
+### Example Outputs
+
+#### Image 000
+
+<table>
+<tr>
+<td><b>Python - Depth Map</b></td>
+<td><b>C++ TensorRT - Depth Map</b></td>
+</tr>
+<tr>
+<td><img src="python_output/000_depth.png" width="400"/></td>
+<td><img src="build/output/000_depth.png" width="400"/></td>
+</tr>
+<tr>
+<td><b>Python - Colored Depth</b></td>
+<td><b>C++ TensorRT - Colored Depth</b></td>
+</tr>
+<tr>
+<td><img src="python_output/000_depth_colored.png" width="400"/></td>
+<td><img src="build/output/000_depth_colored.png" width="400"/></td>
+</tr>
+</table>
+
+#### Image 010
+
+<table>
+<tr>
+<td><b>Python - Depth Map</b></td>
+<td><b>C++ TensorRT - Depth Map</b></td>
+</tr>
+<tr>
+<td><img src="python_output/010_depth.png" width="400"/></td>
+<td><img src="build/output/010_depth.png" width="400"/></td>
+</tr>
+<tr>
+<td><b>Python - Colored Depth</b></td>
+<td><b>C++ TensorRT - Colored Depth</b></td>
+</tr>
+<tr>
+<td><img src="python_output/010_depth_colored.png" width="400"/></td>
+<td><img src="build/output/010_depth_colored.png" width="400"/></td>
+</tr>
+</table>
+
 ## Features
 
 - **Preprocessing**: Image loading, resizing, normalization, patch size alignment
