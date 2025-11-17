@@ -170,7 +170,7 @@ See `COMPARISON_GUIDE.md` and `scripts/README_COMPARISON.md` for detailed compar
 </tr>
 <tr>
 <td><img src="python_output/000_depth.png" width="400"/></td>
-<td><img src="build/output/000_depth.png" width="400"/></td>
+<td><img src="output/000_depth.png" width="400"/></td>
 </tr>
 <tr>
 <td><b>Python - Colored Depth</b></td>
@@ -178,7 +178,7 @@ See `COMPARISON_GUIDE.md` and `scripts/README_COMPARISON.md` for detailed compar
 </tr>
 <tr>
 <td><img src="python_output/000_depth_colored.png" width="400"/></td>
-<td><img src="build/output/000_depth_colored.png" width="400"/></td>
+<td><img src="output/000_depth_colored.png" width="400"/></td>
 </tr>
 </table>
 
@@ -191,7 +191,7 @@ See `COMPARISON_GUIDE.md` and `scripts/README_COMPARISON.md` for detailed compar
 </tr>
 <tr>
 <td><img src="python_output/010_depth.png" width="400"/></td>
-<td><img src="build/output/010_depth.png" width="400"/></td>
+<td><img src="output/010_depth.png" width="400"/></td>
 </tr>
 <tr>
 <td><b>Python - Colored Depth</b></td>
@@ -199,7 +199,7 @@ See `COMPARISON_GUIDE.md` and `scripts/README_COMPARISON.md` for detailed compar
 </tr>
 <tr>
 <td><img src="python_output/010_depth_colored.png" width="400"/></td>
-<td><img src="build/output/010_depth_colored.png" width="400"/></td>
+<td><img src="output/010_depth_colored.png" width="400"/></td>
 </tr>
 </table>
 
