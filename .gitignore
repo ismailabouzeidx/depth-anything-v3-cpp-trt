@@ -58,10 +58,7 @@ build/
 *.egg
 
 # Output directories
-output/
-python_output/
-comparison_output/
-*.png
+comparison_output
 *.jpg
 *.jpeg
 !assets/**/*.png
