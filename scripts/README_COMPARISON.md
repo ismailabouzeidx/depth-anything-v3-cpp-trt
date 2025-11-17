@@ -33,8 +33,8 @@ Once Python outputs are generated:
 cd /home/ismo/projects/depth_anything_v3_cpp_trt
 python3 scripts/compare_depths.py \
   --python_dir python_output \
-  --cpp_dir build/output \
-  --output build/comparison
+  --cpp_dir output \
+  --output comparison_output
 ```
 
 This will:

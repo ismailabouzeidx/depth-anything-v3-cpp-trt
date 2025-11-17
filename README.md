@@ -148,13 +148,13 @@ python3 save_outputs_for_comparison.py
 
 # 2. Run C++ inference
 cd ~/depth_anything_v3_cpp_trt
-./build/depth_anything_3_cpp_trt model.engine img1.jpg img2.jpg
+./build/depth_anything_3_cpp_trt model.engine img1.jpg img2.jpg -o output/
 
 # 3. Compare outputs
 python3 scripts/compare_depths.py \
   --python_dir python_output \
-  --cpp_dir build/output \
-  --output build/comparison
+  --cpp_dir output \
+  --output comparison_output
 ```
 
 See `COMPARISON_GUIDE.md` and `scripts/README_COMPARISON.md` for detailed comparison instructions.

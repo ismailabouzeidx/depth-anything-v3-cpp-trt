@@ -5,8 +5,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
 PYTHON_DIR="${1:-python_output}"
-CPP_DIR="${2:-build/output}"
-OUTPUT_DIR="${3:-build/comparison}"
+CPP_DIR="${2:-output}"
+OUTPUT_DIR="${3:-comparison_output}"
 
 echo "Comparing Python and C++ outputs..."
 echo "  Python dir: $PYTHON_DIR"
